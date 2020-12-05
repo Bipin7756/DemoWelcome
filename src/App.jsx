@@ -3,7 +3,7 @@ import morning from './images/morning.jpg'
 import afternoon from './images/afternoon.jpg'
 import goodnight from './images/goodnight.jpg'
 
-function App(){
+const App = () => {
 
 let curDate = new Date();
 curDate = curDate.getHours();
